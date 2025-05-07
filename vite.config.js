@@ -21,7 +21,7 @@ export default defineConfig({
       },
     },
     rollupOptions: {
-      external: ["lit"],
+      external: [],
       output: {
         globals: {
           lit: "lit",

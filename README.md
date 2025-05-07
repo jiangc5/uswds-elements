@@ -1,4 +1,31 @@
-> [!CAUTION]
+This repository is a fork of the USWDS Elements project and is associated with ticket WAG-7603: **[SPIKE] Investigate web component for global alert**.
+
+### Running Locally
+
+To run this project locally, follow these steps:
+
+1. Clone the repository onto an NCBI machine.
+2. Execute the following commands:
+
+  ```bash
+  facswitch nodejs 22
+  npm install
+  npm run build
+  npx http-server
+  ```
+
+3. If you are using the `iwebdev8` server, open the following URL in your browser:  
+  `http://iwebdev8.be-md.ncbi.nlm.nih.gov:8080/consumer.html`
+
+### Consumer Page
+
+The consumer page demonstrates the usage of the following web components:  
+- `<usa-link>`  
+- `<usa-banner>`
+
+
+
+ [!CAUTION]
 > Work on USWDS Elements, the Web Component version of the Design System, is happening in this repository. This code may not all be suitable for production use. Please refer to the documentation for each component.
 
 # USWDS Elements
